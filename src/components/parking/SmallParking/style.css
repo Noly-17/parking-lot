@@ -1,0 +1,17 @@
+.small-parking {
+  cursor: pointer;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-parking p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

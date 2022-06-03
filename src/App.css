@@ -1,0 +1,58 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: auto;
+  height: 100vh;
+  gap: 50px;
+}
+
+.Parking {
+  border: 1px solid black;
+  position: relative;
+}
+
+.EntryA {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 48%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+.EntryB {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 48%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+.EntryC {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 47%;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.inputs input {
+  height: 20px;
+}
